@@ -1,1 +1,0 @@
-﻿Remove-Item "$Env:Public\Desktop\PRemoteM.lnk" -ea 0

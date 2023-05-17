@@ -1,1 +1,0 @@
-﻿Remove-Item "$Env:Public\Desktop\1RemoteM.lnk" -ea 0

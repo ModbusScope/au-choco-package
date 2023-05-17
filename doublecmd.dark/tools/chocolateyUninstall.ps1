@@ -1,1 +1,0 @@
-﻿Remove-Item "$Env:Public\Desktop\Double Commander.lnk" -ea 0
