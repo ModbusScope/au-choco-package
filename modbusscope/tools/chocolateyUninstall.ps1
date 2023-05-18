@@ -1,17 +1,17 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName         = $Env:ChocolateyPackageName
-$softwareNamePattern = ''
+$softwareNamePattern = 'ModbusScope*'
 
 [array] $key = Get-UninstallRegistryKey $softwareNamePattern
 if ($key.Count -eq 1) {
     $key | % {
         $packageArgs = @{
             packageName            = $packageName
-            silentArgs             = "/x86=0 /S"
+            silentArgs             = "/VERYSILENT"
             fileType               = 'EXE'
             validExitCodes         = @(0)
-            file                   = "$($_.UninstallString.Replace(' /x86=0', ''))"   #"C:\Program Files\OpenSSH\uninstall.exe" /x86=0
+            file                   = $_.UninstallString.Replace('"', '')
         }
         Uninstall-ChocolateyPackage @packageArgs
     }
