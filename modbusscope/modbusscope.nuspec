@@ -15,7 +15,7 @@
     <authors>Jens Geudens</authors>
     <projectUrl>https://github.com/ModbusScope/ModbusScope</projectUrl>
     <iconUrl>https://rawcdn.githack.com/ModbusScope/ModbusScope/3.7.0/resources/icon/icon-256x256.png</iconUrl>
-    <copyright>2023</copyright>
+    <copyright>2023 Jens Geudens</copyright>
     <licenseUrl>https://github.com/ModbusScope/ModbusScope/blob/d2946adea9f409342b26902ac87322b29367e308/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/ModbusScope/ModbusScope</projectSourceUrl>
