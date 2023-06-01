@@ -22,7 +22,9 @@
     <docsUrl>https://modbusscope.readthedocs.io</docsUrl>
     <tags>modbusscope data-log csv-parsing graph</tags>
     <summary>ModbusScope logs data for analysis using the Modbus protocol. </summary>
-    <description>ModbusScope is a software tool that allows for the monitoring and visualization of data from Modbus registers across multiple platforms by collecting samples and displaying them in a graphical format. This makes it useful for analyzing the dynamic behavior of systems. </description>
+    <description>ModbusScope is a software tool that allows for the monitoring and visualization of data from Modbus registers across multiple platforms by collecting samples and displaying them in a graphical format. This makes it useful for analyzing the dynamic behavior of systems. 
+    ![ModbusScope demo](https://rawcdn.githack.com/ModbusScope/ModbusScope/ccf93f8b5309221e2810b6568ab5adb482e6c62d/modbusscope_demo.gif)
+    </description>
     <!-- =============================== -->
 	<releaseNotes>https://github.com/ModbusScope/ModbusScope/releases/tag/3.7.0</releaseNotes>
 	

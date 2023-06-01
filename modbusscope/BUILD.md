@@ -20,3 +20,6 @@
 
   * or more chatty:
     * `choco install ModbusScope --debug --verbose --source .`
+* Images:
+  * Don't use Github as hosting
+  * Use https://raw.githack.com/
