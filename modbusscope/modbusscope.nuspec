@@ -11,7 +11,7 @@
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <title>ModbusScope (Install)</title>
+    <title>ModbusScope</title>
     <authors>jgeudens</authors>
     <projectUrl>https://modbusscope.readthedocs.io</projectUrl>
     <iconUrl>https://rawcdn.githack.com/ModbusScope/ModbusScope/3.7.0/resources/icon/icon-256x256.png</iconUrl>
