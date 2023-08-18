@@ -17,3 +17,6 @@ Run from within the directory of the package to update that package:
     ./update.ps1
 
 Set `$au_Force = $true` prior to script call to update the package even if no new version is found.
+
+Push to Chocolately package repository
+    choco push modbusscope.3.8.0.nupkg --source https://push.chocolatey.org/

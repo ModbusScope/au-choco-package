@@ -5,6 +5,8 @@
 * Make sure `ua` is installed:
   * `choco install au`
 * Run `update.ps1`
+* Push package to repository
+  * `choco push modbusscope.x.x.x.nupkg --source https://push.chocolatey.org/`
 
 ## Manual
 
@@ -20,6 +22,7 @@
 
   * or more chatty:
     * `choco install ModbusScope --debug --verbose --source .`
+
 * Images:
   * Don't use Github as hosting
   * Use https://raw.githack.com/
