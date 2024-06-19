@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   url: https://github.com/ModbusScope/ModbusScope/releases/download/3.9.0/ModbusScope_setup.exe
+   url: https://github.com/ModbusScope/ModbusScope/releases/download/4.0.0/ModbusScope_setup.exe
 
    to download the installer.
 
@@ -17,7 +17,7 @@ Package can be verified like this:
 
    - checksum -t sha256 -f ModbusScope_setup.exe
    
-   checksum: A82D89718442825B1AB74EE633485246C28958B0B7CCFE21760FE2E72A8B6B2F
+   checksum: C218DA4FFC3C6BDB0BC40695B9E15E5F572873191BA4A923AE38DC1DE0BD7B67
 
 
 File 'LICENSE.md' is obtained from:
