@@ -5,7 +5,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>modbusscope</id>
-    <version>4.0.0</version>
+    <version>4.0.1</version>
     <packageSourceUrl>https://github.com/ModbusScope/au-choco-package</packageSourceUrl>
     <owners>jgeudens</owners>
     <!-- ============================== -->
@@ -15,18 +15,18 @@
     <authors>jgeudens</authors>
     <projectUrl>https://modbusscope.readthedocs.io</projectUrl>
     <iconUrl>https://rawcdn.githack.com/ModbusScope/ModbusScope/3.7.0/resources/icon/icon-256x256.png</iconUrl>
-    <copyright>2023 jgeudens</copyright>
+    <copyright>2024 jgeudens</copyright>
     <licenseUrl>https://github.com/ModbusScope/ModbusScope/blob/d2946adea9f409342b26902ac87322b29367e308/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/ModbusScope/ModbusScope</projectSourceUrl>
     <docsUrl>https://modbusscope.readthedocs.io</docsUrl>
     <tags>modbusscope data-log csv-parsing graph</tags>
     <summary>ModbusScope logs data for analysis using the Modbus protocol. </summary>
-    <description>ModbusScope is a software tool that allows for the monitoring and visualization of data from Modbus registers across multiple platforms by collecting samples and displaying them in a graphical format. This makes it useful for analyzing the dynamic behavior of systems. 
+    <description>ModbusScope is a graphical user interface tool designed for logging and visualizing data using the Modbus protocol. It supports real-time data visualization, enabling users to see graphical representations of data while logging. The tool also allows users to export logged data to CSV files for further analysis. It's highly configurable to suit various data logging needs and supports multiple Modbus devices simultaneously, making it ideal for monitoring devices in industrial automation, energy management, and environmental monitoring. 
     ![ModbusScope demo](https://rawcdn.githack.com/ModbusScope/ModbusScope/ccf93f8b5309221e2810b6568ab5adb482e6c62d/modbusscope_demo.gif)
     </description>
     <!-- =============================== -->
-	<releaseNotes>https://github.com/ModbusScope/ModbusScope/releases/tag/4.0.0</releaseNotes>
+	<releaseNotes>https://github.com/ModbusScope/ModbusScope/releases/tag/4.0.1</releaseNotes>
 	
   </metadata>
   <files>
