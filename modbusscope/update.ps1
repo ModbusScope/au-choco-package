@@ -4,15 +4,15 @@ import-module au
 $GitHubRepositoryUrl = 'https://github.com/ModbusScope/ModbusScope'
 
 function global:au_SearchReplace {
-   @{
+    @{
 
         "$($Latest.PackageName).nuspec" = @{
             "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`${1}$($Latest.ReleaseNotes)`$2"
         }
 
-        ".\legal\VERIFICATION.txt" = @{
-          "(?i)(\s+url:).*"            = "`${1} $($Latest.URL64)"
-          "(?i)(checksum:).*"        = "`${1} $($Latest.Checksum64)"
+        ".\legal\VERIFICATION.txt"      = @{
+            "(?i)(\s+url:).*"   = "`${1} $($Latest.URL64)"
+            "(?i)(checksum:).*" = "`${1} $($Latest.Checksum64)"
         }
     }
 }
